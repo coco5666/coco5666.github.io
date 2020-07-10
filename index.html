@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<!-- 设置内容的编码格式 -->
+<meta charset="utf-8"/>
+<!-- 设置查询关键字 -->
+<meta name="keywords" content="Coco56的个人主页"/>
+<!-- 设置网页的描述信息 -->
+<meta name="distribution" content="coco56.gitee.io"/>
+<!-- 设置作者 -->
+<meta name="author" content="Coco56"/>
+<link rel="icon" href="title.ico" type="image/icon"/>
+<title>Coco56 GitHub个人主页 | 首页</title>
+</head>
+
+<body>
+<audio src = "https://coco56.gitee.io/bg.mp3" controls autoplay loop = "loop">该浏览器不支持此功能</audio>
+<br>
+<h1>本页地址： <a href="https://coco56.gitee.io/" target="_blank" title="">https://coco56.gitee.io/</a></h1>
+<!-- 绘制一根线 -->
+<hr width="100%" align = "left" />
+<h1>关于&amp;联系我：<a href="https://coco56.gitee.io/blog/about" target="_blank" title="">https://coco56.gitee.io/blog/about</a></h1>
+
+<h2><div id="countdown"></div></h2>
+
+<script language="javascript" type="text/javascript">
+    var time = 12
+    var divLabel = document.getElementById("countdown")
+    var label = "秒钟后系统将自动跳转到关于&amp;联系我。"
+    divLabel.innerHTML = time.toString() + label
+    function updateTime(){
+        time = time-1
+        if(time>=0){ divLabel.innerHTML = time.toString() + label }
+        else{ divLabel.innerHTML = "正在跳转到关于&amp;联系我，请稍后。。。" }
+    }
+    setInterval("updateTime()",1000);
+    setTimeout("javascript:location.href='https://coco56.gitee.io/blog/about'", time*1000);
+</script>
+
+<hr width="100%" align = "left" />
+<h1>GitHub博客页： <a href="https://coco56.gitee.io/blog" target="_blank" title="">https://coco56.gitee.io/blog</a></h1>
+<!-- 绘制一根线 -->
+<hr width="100%" align = "left" />
+<h1>2019新年祝福：<a href="happyNewYear/play.html" target="_blank" title="">https://coco56.gitee.io/happyNewYear/play.html</a></h1>
+<!-- 绘制一根线 -->
+<hr width="100%" align = "left" />
+<br>
+<h2>B站直播主页：<a href="http://live.bilibili.com/12743964" target="_blank" title="">http://live.bilibili.com/12743964</a></h2>
+<br>
+注：推荐使用电脑访问，手机访问可能屏幕太小，看不清屏幕上的代码。
+<br>
+<br>
+2019年01月01日晚7点准备直播讲解打飞机：
+<br>
+资源下载：
+<br>
+类之间的互动关系图：<a href="打飞机类之间的互动关系.png" download="打飞机类之间的互动关系.png">点击下载</a>
+<br>
+游戏声音引擎补丁代码：<a href="musicDependence.rar" download="musicDependence.rar">点击下载</a>
+<hr width="100%" align = "left" />
+
+<h1>打赏&amp;支持</h1>
+欢迎打赏、支持，我将会为大家发布和更新更多内容
+<h3>微信</h3>
+<img src="https://i.loli.net/2019/07/06/5d20bb02a413d45586.png">
+<h3>支付宝</h3>
+<img src="https://i.loli.net/2019/07/06/5d20bb5b090cf90572.jpg">
+
+<div>
+    <hr width="100%" align = "left" />
+    <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    本站总访问量 <span id="busuanzi_value_site_pv"></span> 次
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    本站访客数<span id="busuanzi_value_site_uv"></span>人次
+    <hr width="100%" align = "left" />
+    <hr width="100%" align = "left" />
+    <hr width="100%" align = "left" />
+    <br>
+    <br>
+    <br>
+</div>
+
+</body>
+</html>
